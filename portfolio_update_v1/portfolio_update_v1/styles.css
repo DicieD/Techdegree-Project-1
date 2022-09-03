@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/Louisiana Flag.png') no-repeat top center ;
+  background: url('images/Louisiana_Flag.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -100,6 +100,20 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #ff99ff;
+}
+
+.hobbies {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid rgb(99, 94, 94);
+  border-radius: 6px;
+  transition: all .5s;
+}
+.hobbies:hover {
+  border-color: #be99ff;
 }
 
 ul.skills {
